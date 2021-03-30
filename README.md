@@ -1,5 +1,3 @@
-[//]: # tennis.png (Image References)
-
 [image1]: tennis.png "Trained Agent"
 
 # Project 3: Collaboration and Competition
