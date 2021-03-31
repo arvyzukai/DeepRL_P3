@@ -55,8 +55,8 @@ In searching for better performance you can modify:
 
         hyperparameters = {
             'BUFFER_SIZE' : int(1e6),  # replay buffer size
-            'BATCH_SIZE' : 256,        # minibatch size
-            'GAMMA' : 0.98,            # discount factor
+            'BATCH_SIZE' : 128,        # minibatch size
+            'GAMMA' : 0.99,            # discount factor
             'TAU' : 0.001,             # for soft update of target parameters
             'LR_ACTOR' : 0.0001,       # learning rate of the actor
             'LR_CRITIC' : 0.0001,      # learning rate of the critic
