@@ -172,6 +172,54 @@ The current implementation is expected to achieve desired performance (average s
 
 ![Performance sample](performance_sample.png)
 
+By letting the Agent to train achieving Average score of >=2.5, this implemetation's single test took 10429 Episodes:
+
+      Episode 100	Average Score: -0.0050
+      ...
+      Episode 6600	Average Score: 0.7287
+      ...
+      Episode 8000	Average Score: 2.3687
+      Episode 8100	Average Score: 1.9078
+      Episode 8200	Average Score: 0.9854
+      Episode 8300	Average Score: 0.9612
+      Episode 8400	Average Score: 1.2185
+      Episode 8500	Average Score: 1.4303
+      Episode 8600	Average Score: 2.0464
+      Episode 8700	Average Score: 2.3197
+      Episode 8800	Average Score: 2.2875
+      Episode 8900	Average Score: 1.9631
+      Episode 9000	Average Score: 2.0420
+      Episode 9100	Average Score: 1.8019
+      Episode 9200	Average Score: 2.0503
+      Episode 9300	Average Score: 2.3235
+      Episode 9400	Average Score: 2.3337
+      Episode 9500	Average Score: 2.2906
+      Episode 9600	Average Score: 2.0871
+      Episode 9700	Average Score: 1.9934
+      Episode 9800	Average Score: 1.2042
+      Episode 9900	Average Score: 1.0103
+      Episode 10000	Average Score: 1.7949
+      Episode 10100	Average Score: 2.1196
+      Episode 10200	Average Score: 1.9823
+      Episode 10300	Average Score: 2.3242
+      Episode 10400	Average Score: 2.4034
+      Episode 10429	Average Score: 2.5101
+      Environment solved in 10429 episodes!	Average Score: 2.51
+
+![Performance long run](performance_long_run.png)
+
+And the test run was completed flawlessly:
+
+      Averaged score between agents, episode 1: 2.600000038743019
+      Averaged score between agents, episode 2: 2.650000039488077
+      Averaged score between agents, episode 3: 2.600000038743019
+      Averaged score between agents, episode 4: 2.650000039488077
+      Averaged score between agents, episode 5: 2.600000038743019
+      Averaged score between agents, episode 6: 2.600000038743019
+      Averaged score between agents, episode 7: 2.650000039488077
+      Averaged score between agents, episode 8: 2.600000038743019
+      Averaged score between agents, episode 9: 2.650000039488077
+      Averaged score between agents, episode 10: 2.600000038743019
 
 
 ### Future improvements
